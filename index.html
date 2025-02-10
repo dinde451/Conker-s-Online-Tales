@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conker's Online Tales - Play Online</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #051635, #06570d);
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      color: #fff;
+    }
+
+    h1 {
+      margin: 20px 0;
+      font-size: 2.5em;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    }
+
+    iframe {
+      border: 5px solid #fff;
+      border-radius: 20px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.6);
+      width: 480px;
+      height: 432px;
+    }
+
+    footer {
+      margin-top: 20px;
+      font-size: 0.9em;
+      opacity: 0.8;
+    }
+
+    @media (max-width: 600px) {
+      iframe {
+        width: 90%;
+        height: auto;
+        aspect-ratio: 1 / 1;
+      }
+    }
+  </style>
+</head>
+<body>
+    <img src="img/header.png" alt="Conker's online Tales">
+    <iframe src="wasmboy/iframe/?rom-name=CPT&play-poster=img/img.jpg&rom-url=game.gbc" allowfullscreen></iframe>
+
+</body>
+</html>
